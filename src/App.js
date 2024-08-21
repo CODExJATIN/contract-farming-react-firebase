@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import RegistrationForm from "./components/Forms/RegistrationForm/RegistrationForm";
 import './App.css';
+import Boxcard from './components/Box-card';
+import LoginForm from './components/Forms/LoginForm/LoginForm'
+import { Routes,Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<Boxcard/>}/>
+        <Route path='/login' element={<LoginForm/>}/>
+      </Routes>
     </div>
   );
 }

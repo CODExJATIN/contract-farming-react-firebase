@@ -1,0 +1,72 @@
+
+.main{ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:70px;
+}
+.icon svg{
+    height:370px;
+    width: 370px;
+}
+.icon h2{
+    font-size: 3rem;
+}
+
+.login{
+    height: 500px;
+    width: 500px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 6px 5px rgba(0,0,0,0.5);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.login h1{
+    margin-top:20px ;
+    font-size: 2.5rem;
+
+}
+
+.dont-have-ac a{
+    color:blue;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:768px) {
+    body{
+        height: auto;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .icon svg{
+        height: 120px;
+        width: 120px;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        width: 320px;
+        margin-top: 0px;
+    }
+    .icon p{
+        font-size: 2rem;
+        width: 200px;
+    }
+    .login{
+        margin:10px 10px;
+        height: auto;
+        width: 300px;
+    }
+}
