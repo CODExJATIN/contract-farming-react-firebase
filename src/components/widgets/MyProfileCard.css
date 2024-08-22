@@ -1,0 +1,55 @@
+.userSetup{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+   
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+    margin-top:70px;
+    
+    }
+    .userProfile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    }
+
+
+.profilePic{
+    display: flex;
+    justify-content: center;
+}
+.profilePic svg{
+    height: 90px;
+    width: 90px;
+    background-color:rgb(240, 232, 232) ;
+    border-radius: 100%;
+
+}
+.farmer{
+display: flex;
+gap: 5px;
+align-items: center;
+margin-top: 0;
+}
+.farmer svg{
+height: 30px;
+width: 30px;
+}
+.farmer span{
+color:gray;
+font-size: 1.2rem;
+}
+.userText{
+font-size: 1.5rem;
+display: flex;
+flex-direction: column;
+}
+
+.line{
+border: 2px solid rgb(240, 232, 232);
+}

@@ -1,0 +1,39 @@
+.conProfile svg{
+    height: 80px;
+    width: 80px;
+    background-color:rgb(240, 232, 232) ;
+    border-radius: 100%; 
+    margin-top: 5px;
+}
+.button{
+width: 90px;
+border-radius: 5px;
+background-color: rgb(16, 148, 255);
+color: white;
+border: none;
+text-align: center;
+/* margin-left: 25px;
+margin-top: 5px; */
+}
+.button p{
+font-size: 0.8rem;
+}
+.proTexts{
+font-size: 1.5rem;
+}
+.proText{
+font-size: 2.4rem;
+color: white;
+}
+.conProfile{
+background-color: white;
+width: 150px;
+text-align: center;
+border-radius: 15px;
+height: 200px;
+box-shadow: 5px 5px rgba(0,0,0,0.5);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
