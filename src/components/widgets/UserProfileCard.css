@@ -12,6 +12,7 @@ background-color: rgb(16, 148, 255);
 color: white;
 border: none;
 text-align: center;
+cursor:pointer;
 /* margin-left: 25px;
 margin-top: 5px; */
 }
@@ -27,7 +28,7 @@ color: white;
 }
 .conProfile{
 background-color: white;
-width: 150px;
+width: 200px;
 text-align: center;
 border-radius: 15px;
 height: 200px;
